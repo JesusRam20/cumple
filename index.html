@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecciona una Imagen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Elige una imagen</h1>
+        <div class="options">
+            <button class="option" onclick="mostrarImagen('img1')">Opción 1</button>
+            <button class="option" onclick="mostrarImagen('img2')">Opción 2</button>
+            <button class="option" onclick="mostrarImagen('img3')">Opción 3</button>
+        </div>
+
+        <div id="result">
+            <h2>La imagen seleccionada es:</h2>
+            <img id="image" src="" alt="Imagen seleccionada">
+            <p id="mensaje"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
